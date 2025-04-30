@@ -4,4 +4,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:"Crimson Text", serif;
+}
+.container{
+    max-width: 1440px;
+    margin-left: 0;
+    margin-right: 0;
+}
+:root{
+    /* HERO SECTION COLOR */
+    --all-heading-text-color: #ffffff;
+    --background-color: #74C69D;
+    --button-text:#000000;
+    /* SECOND SECTION */
+    --c-green-color:: #74C69D;
+    --h1-color:#000000;
+    --p-color:#000000;
+    --button-background-color:#212529;
+    /* THIRD SECTION */
+    --h1-color: #212529;
+    --p-color: #21252980;
+    --button-background-color:#212529;
+/* FORTH SECTION */
+    --h1-color: #212529;
+    --p-color: #21252980;
+    --button-background-color:#212529;
+/* FIFTH SECTION */
+    --h2-color: #212529;
+    --h5-color:#74C69D;
+    --p-color: #21252980;
+    --button-background-color:#212529;
 }
