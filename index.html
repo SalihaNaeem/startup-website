@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startup Website</title>
+    <!-- External CSS and FontAwesome -->
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -12,32 +13,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Favicon -->
     <link rel="shortcut icon" href="Images/svg/logo.svg" type="image/x-icon" />
   </head>
+
   <body>
-    <!-- Hero Section -->
-    <section>
-      <header class="hero">
-        <div class="nav-links">
+    <!-- ======= Hero Section ======= -->
+    <section class="hero">
+      <div class="container">
+        <header class="nav-links">
           <div class="logo">
             <img src="Images/svg/logo.svg" alt="Logo" />
             <h1>Start</h1>
           </div>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
+          <ul class="order-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
-        </div>
+        </header>
         <div class="hero-content">
           <div class="hero-text">
             <h4>WELCOME</h4>
@@ -48,112 +43,121 @@
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing <br />
               elit. Suscipit nemo hic quos, ab, dolor aperiam nobis <br />
-              cum est eos error ipsum, voluptate culpa nesciunt <br />delectus
-              iste?
+              cum est eos error ipsum, voluptate culpa nesciunt <br />
+              delectus iste?
             </p>
             <button>Explore</button>
           </div>
-          <img src="Images/Hero.png" alt="" />
+          <div>
+            <img src="Images/Hero.png" alt="Hero Image" />
+          </div>
         </div>
-      </header>
-      <div class="gallery">
-        <div class="gallery-item">
-          <h3>PARTNERS</h3>
-          <h1>Lorem Ipsum Dolor</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur <br />
-            adipisicing elit.
-          </p>
-        </div>
-        <div class="gallery-icons">
-          <img src="Images/svg/google.svg" alt="" />
-          <img src="Images/svg/micro.svg" alt="" />
-          <img src="Images/svg/air.svg" alt="" />
-          <img src="Images/svg/facebook.svg" alt="" />
-          <img src="Images/svg/spotify.svg" alt="" />
-        </div>
+      </div>
+    </section>
+
+    <!-- ======= Gallery/Partners Section ======= -->
+    <section class="gallery container">
+      <div class="gallery-item">
+        <h3>PARTNERS</h3>
+        <h1>Lorem Ipsum Dolor</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="gallery-icons">
+        <img src="Images/svg/google.svg" alt="Google" />
+        <img src="Images/svg/micro.svg" alt="Microsoft" />
+        <img src="Images/svg/air.svg" alt="Airbnb" />
+        <img src="Images/svg/facebook.svg" alt="Facebook" />
+        <img src="Images/svg/spotify.svg" alt="Spotify" />
+      </div>
+      <button>Learn More</button>
+    </section>
+
+    <!-- ======= Email/Mail Section ======= -->
+    <section class="mail container">
+      <div>
+        <img src="Images/img 1.png" alt="Mail Illustration" />
+      </div>
+      <div class="mail-text">
+        <h2>Lorem ipsum dolor sit <br />amet consectetur</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <br />
+          Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
+          <br />
+          error ipsum, voluptate culpa nesciunt delectus iste?
+        </p>
         <button>Learn More</button>
       </div>
-
-      <div class="mail">
-        <img src="Images/img 1.png" alt="" />
-        <div class="mail-text">
-          <h2>Lorem ipsum dolor sit <br />amet consectetur</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            <br />Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
-            <br />error ipsum, voluptate culpa nesciunt delectus iste?
-          </p>
-          <button>Learn More</button>
-        </div>
-      </div>
-
-      <div class="services">
-        <div class="services-text">
-          <h2>Lorem ipsum dolor sit <br />amet consectetur</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            <br />Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
-            <br />error ipsum, voluptate culpa nesciunt delectus iste?
-          </p>
-          <button>Learn More</button>
-        </div>
-        <img src="Images/img 2.png" alt="" />
-      </div>
-
-      <!-- Talent -->
-       <div class="talent">
-          <h4>TEAM</h4>
-          <h1> Our Talents</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur <br />
-            Suscipit nemo hic quos, ab,
-          </p>
-        <div class="team-members">
-          <div class="member_1">
-            <img src="Images/team-1.png "alt="">
-            <h3>Peg Legge</h3>
-            <p>CEO</p>
-          </div>
-          <div class="member_2">
-            <img src="Images/team-2.png"alt="">
-            <h3>Richard Guerra</h3>
-            <p>CTO</p>
-          </div>
-          <div class="member_3">
-            <img src="Images/team-3.png" alt="" />
-
-            <h3>Alexandra Stolz</h3>
-            <p>DESIGNER
-          </div>
-          <div class="member_4">
-            <img src="Images/team-4.png" alt="" />
-            <h3>Janet Bray</h3>
-            <p>DEVELOPER</p>
-          </div>
-
-      
-       
-        </div>
-
-        <button>View Teams </button>
-       </div>
-       
     </section>
-    <!-- Footer -->
-     <footer class="foot">
-<div class="icons">
-  <img src="Images/svg/Group 1.svg" alt="" />
-  <img src="Images/svg/Group 2.svg" alt="" />
-  <img src="Images/svg/Group 3.svg" alt="" />
-  <img src="Images/svg/Group 4.svg" alt="" />
-  <img src="Images/svg/Group 5.svg" alt="" />
-  <img src="Images/svg/Group 6.svg" alt="" />
-  <img src="Images/svg/Group 7.svg" alt="" />
-</div>
-<div class="footer-text">
-  <p>© Start, 2022. All rights reserved.
-</div>
-     </footer>
+
+    <!-- ======= Services Section ======= -->
+    <section class="services container">
+      <div class="services-text">
+        <h2>Lorem ipsum dolor sit amet consectetur</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+          nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+          voluptate culpa nesciunt delectus iste?
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div>
+        <img src="Images/img 2.png" alt="Services Illustration" />
+      </div>
+    </section>
+
+    <!-- ======= Team Section ======= -->
+    <section class="talent container">
+      <h4>TEAM</h4>
+      <h1>Our Talents</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur <br />
+        Suscipit nemo hic quos, ab,
+      </p>
+
+      <!-- Team Members -->
+      <div class="team-members">
+        <div class="member_1">
+          <img src="Images/team-1.png" alt="Peg Legge" />
+          <h3>Peg Legge</h3>
+          <p>CEO</p>
+        </div>
+        <div class="member_2">
+          <img src="Images/team-2.png" alt="Richard Guerra" />
+          <h3>Richard Guerra</h3>
+          <p>CTO</p>
+        </div>
+        <div class="member_3">
+          <img src="Images/team-3.png" alt="Alexandra Stolz" />
+          <h3>Alexandra Stolz</h3>
+          <p>DESIGNER</p>
+        </div>
+        <div class="member_4">
+          <img src="Images/team-4.png" alt="Janet Bray" />
+          <h3>Janet Bray</h3>
+          <p>DEVELOPER</p>
+        </div>
+      </div>
+
+      <button>View Teams</button>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer class="foot">
+      <div class="container footer-content">
+        <div class="icons">
+          <img src="Images/svg/Group 1.svg" alt="Icon 1" />
+          <img src="Images/svg/Group 2.svg" alt="Icon 2" />
+          <img src="Images/svg/Group 3.svg" alt="Icon 3" />
+          <img src="Images/svg/Group 4.svg" alt="Icon 4" />
+          <img src="Images/svg/Group 5.svg" alt="Icon 5" />
+          <img src="Images/svg/Group 6.svg" alt="Icon 6" />
+          <img src="Images/svg/Group 7.svg" alt="Icon 7" />
+        </div>
+        <div class="footer-text">
+          <p>© Start, 2022. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
