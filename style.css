@@ -10,6 +10,8 @@
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding-left:30px ;
+  padding-right: 30px;
 }
 
 :root {
@@ -86,6 +88,7 @@ ul li {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  padding-top: 5%;
 }
 .hero-text {
   color: #ffffff;
@@ -180,12 +183,14 @@ ul li {
 .services-text h2 {
   color: #212529;
   font-size: 45px;
-  width: 37% !important;
+  /* width: 37% !important; */
 }
 .services-text p {
   color: #21252980;
   font-size: 18px;
   padding-top: 2%;
+  /* width: 35% !important; */
+
 }
 .services-text button {
   background-color: #212529;
@@ -285,4 +290,42 @@ ul li {
 .icons {
   display: flex;
   gap: 20px;
+}
+.menu-icon i{
+  font-size: 40px;
+  color: white;
+
+}
+.menu-icon{
+  display: none;
+}
+
+
+/* Media Section Start */
+@media (max-width:1024){
+  .hero-image img{
+max-width: 353px;
+  }
+  .hero-content{
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width:779px){
+  .order-list{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+}
+@media (max-width: 440px) {
+  .hero-image img {
+    max-width: 253px;
+  }
+}
+@media (max-width:455px){
+  .hero-image img {
+    max-width: 200px;
+  }
 }
