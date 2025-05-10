@@ -10,7 +10,7 @@
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  padding-left:30px ;
+  padding-left: 30px;
   padding-right: 30px;
 }
 
@@ -68,8 +68,9 @@ body {
 }
 .nav-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
 }
 ul li {
   list-style: none;
@@ -86,13 +87,12 @@ ul li {
 .hero-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 5%;
+  padding-top: 8%;
 }
 .hero-text {
   color: #ffffff;
-  padding-left: 3%;
 }
 .hero-text h2 {
   font-size: 45px;
@@ -190,7 +190,6 @@ ul li {
   font-size: 18px;
   padding-top: 2%;
   /* width: 35% !important; */
-
 }
 .services-text button {
   background-color: #212529;
@@ -254,23 +253,15 @@ ul li {
 }
 .member_1 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 18%;
-  height: 45%;
 }
 .member_2 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 18%;
-  height: 45%;
 }
 .member_3 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 18%;
-  height: 45%;
 }
 .member_4 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 18%;
-  height: 45%;
 }
 .foot {
   background-color: #74c69d;
@@ -291,41 +282,74 @@ ul li {
   display: flex;
   gap: 20px;
 }
-.menu-icon i{
+.menu-icon i {
   font-size: 40px;
   color: white;
-
 }
-.menu-icon{
+.menu-icon {
   display: none;
 }
 
-
 /* Media Section Start */
-@media (max-width:1024){
-  .hero-image img{
-max-width: 353px;
+@media (max-width: 1139px) {
+  .hero-image img {
+    max-width: 353px;
   }
-  .hero-content{
-    flex-direction: column-reverse;
+}
+@media (max-width: 832px) {
+  .hero-image img {
+    max-width: 100%;
   }
 }
 
-@media (max-width:779px){
-  .order-list{
+@media (max-width: 779px) {
+  .order-list {
     display: none;
   }
-  .menu-icon{
+  .menu-icon {
     display: block;
   }
 }
-@media (max-width: 440px) {
-  .hero-image img {
-    max-width: 253px;
+
+@media (max-width: 375px) {
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  .hero-image {
+    padding-bottom: 30px;
+  }
+  .mail-text h2 {
+    font-size: 24px;
+  }
+  .mail-text button {
+    width: 100%;
   }
 }
-@media (max-width:455px){
-  .hero-image img {
-    max-width: 200px;
+
+@media (max-width: 320px) {
+  .hero-text h2 {
+    font-size: 27px;
+  }
+  .hero-text button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 933px) {
+  .gallery-icons img {
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .gallery button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mail img {
+    max-width: 100%;
   }
 }
